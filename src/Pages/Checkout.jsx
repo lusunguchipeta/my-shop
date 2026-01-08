@@ -8,7 +8,7 @@ export default function Checkout({ cart }) {
 
   function makePayment() {
     PaychanguCheckout({
-      public_key: "pub-test-Z2fK1oH31qEvBjtf7FnBhp6CtMZ0vpMW",
+      public_key: "pub-test-CMEJWkqzmttSfAgYXQeeSsysUVD9DHXi",
       tx_ref: "" + Math.floor(Math.random() * 1000000000 + 1),
       // amount: 50,
       amount: totalAmount,
